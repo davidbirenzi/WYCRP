@@ -203,19 +203,33 @@ body {
 .impact-image {
   height: 175px;
   border-top: 5px solid #20a4dd;
-  background: linear-gradient(140deg, #4caf50, #2e7d32);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img-a {
+  background-image:
+    linear-gradient(rgba(20, 40, 30, 0.2), rgba(20, 40, 30, 0.2)),
+    url("https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80");
 }
 
 .img-b {
-  background: linear-gradient(140deg, #26a69a, #2e7d32);
+  background-image:
+    linear-gradient(rgba(20, 40, 30, 0.22), rgba(20, 40, 30, 0.22)),
+    url("https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=900&q=80");
 }
 
 .img-c {
-  background: linear-gradient(140deg, #8bc34a, #26a69a);
+  background-image:
+    linear-gradient(rgba(20, 40, 30, 0.2), rgba(20, 40, 30, 0.2)),
+    url("https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=900&q=80");
 }
 
 .img-d {
-  background: linear-gradient(140deg, #0288d1, #26a69a);
+  background-image:
+    linear-gradient(rgba(20, 40, 30, 0.22), rgba(20, 40, 30, 0.22)),
+    url("https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=80");
 }
 
 .impact-kicker {
@@ -351,22 +365,33 @@ body {
   height: 130px;
   border-top: 5px solid #20a4dd;
   margin-bottom: 0.65rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .n1 {
-  background: linear-gradient(130deg, #786856, #2e7d32);
+  background-image:
+    linear-gradient(rgba(26, 38, 30, 0.22), rgba(26, 38, 30, 0.22)),
+    url("https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1200&q=80");
 }
 
 .n2 {
-  background: linear-gradient(130deg, #e36a4e, #26a69a);
+  background-image:
+    linear-gradient(rgba(26, 38, 30, 0.22), rgba(26, 38, 30, 0.22)),
+    url("https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1200&q=80");
 }
 
 .n3 {
-  background: linear-gradient(130deg, #728e59, #4caf50);
+  background-image:
+    linear-gradient(rgba(26, 38, 30, 0.22), rgba(26, 38, 30, 0.22)),
+    url("https://images.unsplash.com/photo-1593113598332-cd59a93f7d75?auto=format&fit=crop&w=1200&q=80");
 }
 
 .n4 {
-  background: linear-gradient(130deg, #3f8aa8, #263238);
+  background-image:
+    linear-gradient(rgba(26, 38, 30, 0.25), rgba(26, 38, 30, 0.25)),
+    url("https://images.unsplash.com/photo-1547683905-f686c993aae5?auto=format&fit=crop&w=1200&q=80");
 }
 
 .news-card h3 {
